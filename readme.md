@@ -1,0 +1,1 @@
+This is a basic HTML5 project revolving around a webpage that displays recipes to the user. This project is mainly to bolster my HTML5 skills, and will only be done in HTML5 and CSS. 
