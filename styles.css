@@ -3,9 +3,6 @@
 }
 
 #hero {
-    display:inline-block;
-    color: #FFFFFF;
-    background-color: #882D61;
     border-radius:10px;
     width: 20%;
     margin-bottom: 1em;
@@ -14,55 +11,56 @@
 
 
 .description {
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    background-color: #AA3939;
-    color: #FFFFFF;
+    flex: 1;
     border-radius: 10px;
     margin-bottom: 2em;
     font-size: 16px;
-    padding: 4em;
+    padding: 1em;
 }
 
-.recipes {
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    background-color: #AA6C39;
-    color: #FFFFFF;
+#recipes {
     border-radius: 10px;
-    margin-bottom: 2em;
+    margin-bottom: 2em; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.recipe-item {
+    
 }
 
 .recipes a:link {
-    color: #FFFFFF;
+    color: maroon;
 }
 
 #wrapper {
-    text-align: center;
+    display:flex;
+    justify-content: center;
+}
+
+#intro {
+    display: flex;
+    align-items: center;
+    flex-direction:column;
 }
 
 .recipes a:visited {
-    color: #D49A6A;
+    color: indigo;
 }
 
-.preview {
-    height: auto;
-    width: 33%;
-    border: 4px solid black;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
+#preview {
+    flex: 1;
+    width:100%;
     margin-bottom: 2em;
 }
 
+#preview img {
+    max-width:600px;
+    border: 4px solid black;
+}
+
 .ingredients {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #AA3939;
-    color: #FFFFFF;
+    flex: .33;
     border-radius: 10px;
     margin-bottom: 2em;
     padding: 1em;
@@ -71,11 +69,7 @@
 }
 
 .directions {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #AA6C39;
-    color: #FFFFFF;
+    flex: .77;
     border-radius: 10px;
     margin-bottom: 2em;
     font-size: 16px;
@@ -85,6 +79,14 @@
 
 .directions li {
     margin-bottom: 1em;
+}
+
+@media (max-width: 767px) {
+    #preview img {
+        /* Adjust styles for mobile devices */
+        border-width: 2px; /* Example: thinner border on smaller screens */
+        max-width:250px;
+    }
 }
 
 /*
