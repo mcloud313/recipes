@@ -2,19 +2,54 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.preview {
-    height: auto;
-    width: 25%;
-    border: 4px solid black;
+#hero {
+    color: #FFFFFF;
+    background-color: #882D61;
+    display:flex;
+    align-items:left;
+    border-radius:10px;
 }
 
-.ingrediants {
+.description {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #AA3939;
     color: #FFFFFF;
     border-radius: 10px;
+    margin-bottom: 2em;
+    font-size: 16px;
+    padding: 4em;
+}
+
+.recipes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #AA6C39;
+    color: #FFFFFF;
+    border-radius: 10px;
+    margin-bottom: 2em;
+}
+
+.preview {
+    height: auto;
+    width: 33%;
+    border: 4px solid black;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2em;
+}
+
+.ingredients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #AA3939;
+    color: #FFFFFF;
+    border-radius: 10px;
+    margin-bottom: 2em;
     
 }
 
@@ -24,7 +59,10 @@
     align-items: center;
     background-color: #AA6C39;
     color: #FFFFFF;
-    border-radius: 10px
+    border-radius: 10px;
+    margin-bottom: 2em;
+    font-size: 16px;
+    padding:4em;
 }
 
 /*
