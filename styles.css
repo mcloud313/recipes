@@ -1,0 +1,35 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.preview {
+    height: auto;
+    width: 25%;
+    border: 4px solid black;
+}
+
+.ingrediants {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #AA3939;
+    color: #FFFFFF;
+    border-radius: 10px;
+    
+}
+
+.directions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #AA6C39;
+    color: #FFFFFF;
+    border-radius: 10px
+}
+
+/*
+Maroon - AA3939, Light - FFAAAA, Dark - 801515
+PUKE YELLOW - AA6C39, Light - D49A6A, Dark - 804515
+LILAC - 882D61, Light - AA5585, Dark - 661141
+
+*/
